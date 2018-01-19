@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    /*font size as % to not override changes a user may make, define what 1rem =*/
+    font-size: 62.5%; //1rem = 10px
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.page-wrapper{
+    max-width: 120rem; //1200px
+    margin: 0 auto;
+    padding: 3rem;
+}

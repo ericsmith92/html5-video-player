@@ -1,0 +1,14 @@
+{
+  "name": "front-end-starter",
+  "version": "1.0.0",
+  "description": "starter files for front-end projects",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

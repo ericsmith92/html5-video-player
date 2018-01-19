@@ -1,0 +1,27 @@
+.row{
+    max-width: $grid-width;
+    margin: 0 auto;
+
+    &:not(:last-of-type){
+        margin-bottom: $gutter-vertical;
+    }
+
+    @include clearfix;
+
+    //select all columns with attribute selector
+    [class^="col-"]{
+        float: left;
+        //last child doesn't jave margin-right on it
+        &:not(:last-child){
+            margin-right: $gutter-horizontal;
+        }
+    }
+
+    //nest columns inside row selector
+    .col-1-of-5{
+        width: calc((100% - #{$gutter-horizontal} * 4) / 5);
+        text-align: center;
+    }
+}
+
+

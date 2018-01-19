@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Player</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+    <div class="page-wrapper">
+        <main>
+            <div class="video">
+                <video>
+                    <source src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164">
+                </video>
+
+                <div class="video__dock">
+                    <div class="video__dock--upper">
+                        <div class="video__dock-progress">
+                            <div class="video__dock-progress--inner">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__dock--lower">
+                        <div class="row">
+                            <div class="col-1-of-5 video__dock-control--play">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-1-of-5">
+                                <i class="fa fa-step-backward video__dock-control--step" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-1-of-5">
+                                <i class="fa fa-step-forward video__dock-control--step" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-1-of-5 video__volume--container">
+                                <i class="fa fa-volume-up" aria-hidden="true"></i>
+                                <div class="video__volume">
+                                    <div class="video__volume--inner"></div>
+                                </div>
+                            </div>
+                            <div class="col-1-of-5">
+                                <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://use.fontawesome.com/63b918bac0.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

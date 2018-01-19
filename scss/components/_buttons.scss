@@ -1,0 +1,9 @@
+.fa{
+    font-size: 2rem !important;
+    color: $color-white;
+    opacity: .7;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
